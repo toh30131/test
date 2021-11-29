@@ -2,7 +2,7 @@ import requests
 import pandas as pd
 from math import ceil
 from pymongo import MongoClient
-import yagmail
+#import yagmail
 
 client = MongoClient()
 client = MongoClient("mongodb://localhost:27017/")
